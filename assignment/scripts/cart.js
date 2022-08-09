@@ -158,3 +158,21 @@ console.log(`Should be null - ${removeItem('roach', bugs)}`);
 console.log(`Should be full array - ${bugs}`);
 console.log(`Should be undefined - ${x}`)
 //not sure about this last bit.
+
+
+
+
+
+
+
+
+
+function pressPlay(tape, library){
+    let vcr;
+    if (vcr=[tape]){
+        return "Read to watch " + tape + "! Press play."
+    }
+}
+vcr = "empty"
+library = ["Air Bud", "Balto", "All Dogs Go to Heaven"]
+console.log (pressPlay("Balto", library));
